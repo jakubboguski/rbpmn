@@ -1,0 +1,25 @@
+{
+    "name": "Dirty",
+    "uri": "http://jakub/schema/bpmn/jb",
+    "prefix": "jb",
+    "xml": {
+      "tagAlias": "lowerCase"
+    },
+    "types": [
+      {
+        "name": "AnalyzedNode",
+        "extends": [
+          "bpmn:FlowNode"
+        ],
+        "properties": [
+          {
+            "name": "dirty",
+            "isAttr": true,
+            "type": "Boolean"
+          }
+        ]
+      }
+    ],
+    "emumerations": [],
+    "associations": []
+  }
